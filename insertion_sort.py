@@ -11,4 +11,4 @@ def insertion_sort(array):
             array[current + 1] = array[current]
             current -= 1
         array[current + 1] = position
-    print(array)
+    return array
